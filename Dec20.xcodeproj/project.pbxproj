@@ -18,6 +18,15 @@
 		A3A6252C167E4E2000ED92AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A62513167E4E2000ED92AC /* Foundation.framework */; };
 		A3A62534167E4E2000ED92AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3A62532167E4E2000ED92AC /* InfoPlist.strings */; };
 		A3A62537167E4E2000ED92AC /* Dec20Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A62536167E4E2000ED92AC /* Dec20Tests.m */; };
+		A3A62542167E645200ED92AC /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A62541167E645200ED92AC /* TableViewController.m */; };
+		A3A6255F167ED3EE00ED92AC /* Airplane Mode.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3A62557167ED3ED00ED92AC /* Airplane Mode.jpg */; };
+		A3A62560167ED3EE00ED92AC /* Brightness & Wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3A62558167ED3ED00ED92AC /* Brightness & Wallpaper.jpg */; };
+		A3A62561167ED3EE00ED92AC /* General.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3A62559167ED3ED00ED92AC /* General.jpg */; };
+		A3A62562167ED3EE00ED92AC /* Wi-Fi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3A6255A167ED3ED00ED92AC /* Wi-Fi.jpg */; };
+		A3A62563167ED3EE00ED92AC /* Do Not Disturb.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A6255B167ED3ED00ED92AC /* Do Not Disturb.png */; };
+		A3A62564167ED3EE00ED92AC /* Notifications.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A6255C167ED3ED00ED92AC /* Notifications.png */; };
+		A3A62565167ED3EE00ED92AC /* Sounds.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A6255D167ED3EE00ED92AC /* Sounds.png */; };
+		A3A62566167ED3EE00ED92AC /* Wi-Fi.png in Resources */ = {isa = PBXBuildFile; fileRef = A3A6255E167ED3EE00ED92AC /* Wi-Fi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,16 @@
 		A3A62533167E4E2000ED92AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3A62535167E4E2000ED92AC /* Dec20Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dec20Tests.h; sourceTree = "<group>"; };
 		A3A62536167E4E2000ED92AC /* Dec20Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dec20Tests.m; sourceTree = "<group>"; };
+		A3A62540167E63F800ED92AC /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		A3A62541167E645200ED92AC /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		A3A62557167ED3ED00ED92AC /* Airplane Mode.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Airplane Mode.jpg"; sourceTree = "<group>"; };
+		A3A62558167ED3ED00ED92AC /* Brightness & Wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Brightness & Wallpaper.jpg"; sourceTree = "<group>"; };
+		A3A62559167ED3ED00ED92AC /* General.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = General.jpg; sourceTree = "<group>"; };
+		A3A6255A167ED3ED00ED92AC /* Wi-Fi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Wi-Fi.jpg"; sourceTree = "<group>"; };
+		A3A6255B167ED3ED00ED92AC /* Do Not Disturb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Do Not Disturb.png"; sourceTree = "<group>"; };
+		A3A6255C167ED3ED00ED92AC /* Notifications.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Notifications.png; sourceTree = "<group>"; };
+		A3A6255D167ED3EE00ED92AC /* Sounds.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sounds.png; sourceTree = "<group>"; };
+		A3A6255E167ED3EE00ED92AC /* Wi-Fi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Wi-Fi.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +126,8 @@
 			isa = PBXGroup;
 			children = (
 				A3A62520167E4E2000ED92AC /* Dec20AppDelegate.h */,
+				A3A62541167E645200ED92AC /* TableViewController.m */,
+				A3A62540167E63F800ED92AC /* TableViewController.h */,
 				A3A62521167E4E2000ED92AC /* Dec20AppDelegate.m */,
 				A3A62518167E4E2000ED92AC /* Supporting Files */,
 			);
@@ -118,6 +139,14 @@
 			children = (
 				A3A62519167E4E2000ED92AC /* Dec20-Info.plist */,
 				A3A6251A167E4E2000ED92AC /* InfoPlist.strings */,
+				A3A62557167ED3ED00ED92AC /* Airplane Mode.jpg */,
+				A3A62558167ED3ED00ED92AC /* Brightness & Wallpaper.jpg */,
+				A3A62559167ED3ED00ED92AC /* General.jpg */,
+				A3A6255A167ED3ED00ED92AC /* Wi-Fi.jpg */,
+				A3A6255B167ED3ED00ED92AC /* Do Not Disturb.png */,
+				A3A6255C167ED3ED00ED92AC /* Notifications.png */,
+				A3A6255D167ED3EE00ED92AC /* Sounds.png */,
+				A3A6255E167ED3EE00ED92AC /* Wi-Fi.png */,
 				A3A6251D167E4E2000ED92AC /* main.m */,
 				A3A6251F167E4E2000ED92AC /* Dec20-Prefix.pch */,
 			);
@@ -216,6 +245,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3A6251C167E4E2000ED92AC /* InfoPlist.strings in Resources */,
+				A3A6255F167ED3EE00ED92AC /* Airplane Mode.jpg in Resources */,
+				A3A62560167ED3EE00ED92AC /* Brightness & Wallpaper.jpg in Resources */,
+				A3A62561167ED3EE00ED92AC /* General.jpg in Resources */,
+				A3A62562167ED3EE00ED92AC /* Wi-Fi.jpg in Resources */,
+				A3A62563167ED3EE00ED92AC /* Do Not Disturb.png in Resources */,
+				A3A62564167ED3EE00ED92AC /* Notifications.png in Resources */,
+				A3A62565167ED3EE00ED92AC /* Sounds.png in Resources */,
+				A3A62566167ED3EE00ED92AC /* Wi-Fi.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +289,7 @@
 			files = (
 				A3A6251E167E4E2000ED92AC /* main.m in Sources */,
 				A3A62522167E4E2000ED92AC /* Dec20AppDelegate.m in Sources */,
+				A3A62542167E645200ED92AC /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

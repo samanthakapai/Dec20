@@ -1,0 +1,1 @@
+Created a simplified version of the my settings App with all the on-off buttons clubbed together in one section and the remainder are just check marks. 
